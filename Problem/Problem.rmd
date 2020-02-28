@@ -25,4 +25,12 @@ $H_A$ : there is a difference in average years of education between those who vo
 plot(EDUC~VOTE12,data=Ourdata)
 ```
 
-It appears that the average number of years is different. No group is 5 years, Yes group is about 8 or 9.
+It appears that the average number of years is different. No group is 5 years, Yes group is about 8 or 9.  
+
+
+## Numerical Summary  
+
+```{r}
+favstats(EDUC~VOTE12,data=Ourdata)
+```
+
